@@ -23,6 +23,5 @@ def main():
             else:
                 print(user_input, 'was wrong')
 
-
 if __name__ == '__main__':
     main()

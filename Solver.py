@@ -3,7 +3,6 @@ class Solver:
         self.dictionary = dictionary
         self.filteredDict = dictionary[:]
 
-
     def solveNext(self, currentWord, alreadyGuessed):
         potential_letters = []
         #Check if there hasn't been any correct guesses so far, in that case guess a vowel in order of frequency
